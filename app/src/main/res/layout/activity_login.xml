@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB">
+
+    <!-- 添加登录界面元素，例如用户名、密码输入框和登录按钮 -->
+    <!-- 用户名输入框 -->
+
+    <!-- 密码输入框 -->
+
+    <!-- 登录按钮 -->
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="550dp"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:hint="Username"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="-79dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="550dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editTextUsername"
+        android:background="#ffffff"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="-53dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="550dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editTextPassword"
+        android:layout_marginEnd="4dp"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="548dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
